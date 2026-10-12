@@ -49,16 +49,8 @@ export default function LandingPage() {
       {/* Navigation Header */}
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-          <div className="flex items-center gap-3">
+          <div className="flex items-center">
             <Logo size="md" />
-            <div className="flex flex-col">
-              <span className="font-bold text-base tracking-tight text-slate-900 font-sans">
-                CertiVerify <span className="text-indigo-600 font-extrabold">AI</span>
-              </span>
-              <span className="text-[10px] uppercase font-mono tracking-wider text-slate-600 font-medium">
-                Credential Forensics
-              </span>
-            </div>
           </div>
 
           <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
